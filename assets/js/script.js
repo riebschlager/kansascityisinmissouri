@@ -22,10 +22,10 @@ function showKCK() {
 
 function init() {
     kcmoInfo = new google.maps.InfoWindow({
-        content: '<h3>Kansas City, <em>Missouri</em></h3>'
+        content: '<h5>Kansas City, <em>Missouri</em></h5>'
     });
     kckInfo = new google.maps.InfoWindow({
-        content: '<h3>Kansas City, <em>Kansas</em></h3>'
+        content: '<h5>Kansas City, <em>Kansas</em></h5>'
     });
     kcmoMarker = new google.maps.Marker({
         position: kcmoGeo,
